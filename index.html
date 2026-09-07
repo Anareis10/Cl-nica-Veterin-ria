@@ -99,5 +99,104 @@
             </div>
         </div>
     </section>
+
+    <section class="terceira__pagina">
+        <div class="cadastro__tutor">
+            <img class="contato" src="./img/contato.png" alt="contato">
+            <p class="titulo_cadastro">Cadastro de Tutor</p>
+            <p class="subtitulo__contato">Preencha os dados do responsável pelo animal para começar o atendimento.</p>
+            <p class="checklist">
+                ✓ Histórico médico completo<br>
+                ✓ Lembretes de vacinas e consultas<br>
+                ✓ Agendamento online<br>
+                ✓ Acesso 24h ao prontuário
+            </p>
+        </div>
+        
+        
+        <form class="dados">
+
+            <h1>Dados do Tutor</h1>
+
+            <div class="dados__endereco">
+
+                <div class="campo">
+                    <label for="nome">NOME</label>
+                    <input type="text" name="nome" placeholder="Maria">
+
+                    <label for="nome">Sobrenome</label>
+                    <input type="text" name="nome" placeholder="Silva">
+                </div>
+
+                <div class="campo">
+                    <label for="cpf">CPF</label>
+                    <input type="number" name="number" placeholder="000.000.000-00">
+
+                    <label for="rg">RG</label>
+                    <input type="number" name="number" placeholder="00.000.000-0">
+                </div>
+
+                <div class="campo">
+                    <label for="e-mail">E-MAIL</label>
+                    <input type="email" name="email" placeholder="maria@email.com">
+
+                    <label for="tel">TELEFONE</label>
+                    <input type="tel" name="tel" placeholder="(11) 99999-9999">
+                </div>
+
+                <div class="campo">
+                    <label for="nascimento">DATA DE NASCIMENTO</label>
+                    <input type="date" name="date" placeholder="dd/mm/aaaa">
+
+                    <label for="CEP">CEP</label>
+                    <input type="number" name="CEP" placeholder="00000-000">
+                </div>
+
+                <label for="endereco">ENDEREÇO</label>
+                <input class="endereco" type="text" name="text" placeholder="Rua das Flores, 123">
+                
+                <div class="campo__endereco">
+                    <label for="bairro">BAIRRO</label>
+                    <input type="text" name="bairro" placeholder="Centro">
+
+                    <label for="cidade">CIDADE</label>
+                    <input type="text" name="cidade" placeholder="São Paulo">
+
+                    <label for="uf">UF</label>
+
+                    <select id="uf" name="uf" required>
+                        <option value="">UF</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </section>
 </body>
 </html>
