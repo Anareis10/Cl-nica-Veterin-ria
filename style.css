@@ -428,7 +428,7 @@
     font-size: 27px;
     font-weight: 700;
     color: var(--Cor-verde-forte);
-    border-bottom: 2px solid #B8EDE9;
+    border-bottom: 3px solid rgba(184, 237, 233, 0.4);
     padding: 0px 0px 17px;
     margin: 0px 0px 32px;
 }
