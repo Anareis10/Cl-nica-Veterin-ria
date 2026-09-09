@@ -584,3 +584,22 @@ select:focus{
     font-family: var(--Fonte-Nunito);
     font-size: 15px;
 }
+
+.botao__cadastro{
+    background: linear-gradient(135deg, rgb(26, 143, 138), rgb(46, 184, 178));
+    width: 230px;
+    height: 54px;
+    font-family: var(--Fonte-Nunito);
+    font-size: 16px;
+    font-weight: 800;
+    color: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    transition: 0.25s ease;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.botao__cadastro:hover{
+    background: linear-gradient(135deg, rgb(19, 119, 115), rgb(37, 157, 152));
+}
