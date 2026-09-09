@@ -268,6 +268,7 @@
 .foto__cachorro{
     width: 520px;
     height: 560px;
+    margin-top: 50px;
     object-fit: cover;
     border-radius: 50px;
     animation: balancar 7s ease-in-out infinite; /* Faz a imagem balançar suavemente */
@@ -440,16 +441,17 @@
 
 }
 
-.campo input{
+input{
     padding: 12px 16px;
     border-radius: 12px;
     text-decoration: none;
-    border: 1px solid #D4EEEC;
+    border: 2px solid #D4EEEC;
     background: var(--Cor-Branco-Acinzentado);
     width: 330px;
     font-family: var(--Fonte-Nunito);
     font-size: 15px;
-    
+    outline: none;
+    transform: scale(1.01);
 }
 
 .campo{
@@ -460,8 +462,9 @@
     margin-bottom: 20px;
 }
 
-.campo input:hover{
-    border: 1px solid #2EB8B2;
+input:focus{
+    border: 2px solid #2EB8B2;
+    outline: 5px solid rgba(46, 184, 178, 0.1);
 }
 
 /*  nth-of-type(1) significa:
@@ -492,7 +495,7 @@
     padding: 12px 16px;
     border-radius: 12px;
     text-decoration: none;
-    border: 1px solid #D4EEEC;
+    border: 2px solid #D4EEEC;
     background: var(--Cor-Branco-Acinzentado);
     width: 713px;
     font-family: var(--Fonte-Nunito);
@@ -501,6 +504,7 @@
     flex-direction: column;
     margin-top: 8px;
     margin-bottom: 20px;
+    transform: scale(1.01);
 }
 
 .endereco__label{
@@ -515,6 +519,7 @@
     grid-template-columns: 1fr 1fr 100px;
     column-gap: 20px;
     row-gap: 8px;
+    
 }
 
 .campo__endereco label:nth-of-type(1){
@@ -551,18 +556,29 @@
     padding: 12px 16px;
     border-radius: 12px;
     text-decoration: none;
-    border: 1px solid #D4EEEC;
+    border: 2px solid #D4EEEC;
     background: var(--Cor-Branco-Acinzentado);
     width: 213px;
     font-family: var(--Fonte-Nunito);
     font-size: 15px;
+    transform: scale(1.01);
+}
+
+.campo__endereco input:focus{
+    border: 2px solid #2EB8B2;
+    outline: 5px solid rgba(46, 184, 178, 0.1);
+}
+
+select:focus{
+    border: 2px solid #2EB8B2;
+    outline: 5px solid rgba(46, 184, 178, 0.1);
 }
 
 .uf{
     padding: 12px 16px;
     border-radius: 12px;
     text-decoration: none;
-    border: 1px solid #D4EEEC;
+    border: 2px solid #D4EEEC;
     background: var(--Cor-Branco-Acinzentado);
     width: 100px;
     font-family: var(--Fonte-Nunito);
