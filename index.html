@@ -244,18 +244,29 @@
                     <input type="date" name="nome" placeholder="dd/mm/aaaa">
                 </div>
 
-                <div class="campo">
-                    <input type="radio" id="macho" name="sexo" value="macho">
-                    <label for="macho">MACHO</label><br>
+                <div class="campo aniaml">
+                    <label class="sexo__animal" for="sexo">SEXO</label><br>
 
-                    <input type="radio" id="femea" name="sexo" value="femea">
-                    <label for="femea">FÊMEA</label><br>
+                    <div class="parte__radio">
 
-                    <input type="radio" id="macho" name="fav_language" value="HTML">
-                    <label for="html">MACHO</label><br>
+                        <div class="separacao__radio">
+                            <label for="macho">MACHO</label>
+                            <input class="sexo__animal" type="radio" id="macho" name="sexo" value="macho">
+                        </div>
 
-                    <label for="nome">Sobrenome</label>
-                    <input type="text" name="nome" placeholder="Silva">
+                        <div class="separacao__radio">
+                            <label class="sexo__animal" for="femea">FÊMEA</label>
+                            <input class="sexo__animal" type="radio" id="femea" name="sexo" value="femea">
+                        </div>
+
+                        <div class="separacao__radio">
+                            <label class="sexo__animal" for="indefinido">INDEFINIDO</label>
+                            <input class="sexo__animal" type="radio" id="indefinido" name="sexo" value="indefinido">
+                        </div>
+                    </div>
+
+                    <!-- <label for="pelagem">COR / PELAGEM</label>
+                    <input type="text" name="nome" placeholder="Silva"> -->
                 </div>
             </div>
             

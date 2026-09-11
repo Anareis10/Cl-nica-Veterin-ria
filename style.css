@@ -651,3 +651,25 @@ select:focus{
     background: #edfaf9;
 }
 
+.sexo__animal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.parte__radio input{
+    width: 17px;
+    height: 20px;
+    /* accent-color: #2EB8B2; muda a cor da bolinha do radio */
+    outline: none;
+}
+
+.aniaml{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.separacao__radio{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
