@@ -102,7 +102,7 @@
 
     <section class="terceira__pagina">
         <div class="cadastro__tutor">
-            <img class="contato" src="./img/contato.png" alt="contato">
+            <img class="contato tamanho" src="./img/contato.png" alt="contato">
             <p class="titulo_cadastro">Cadastro de Tutor</p>
             <p class="subtitulo__contato">Preencha os dados do responsável pelo animal para começar o atendimento.</p>
             <p class="checklist">
@@ -201,18 +201,43 @@
         </form>
     </section>
 
-    <section class="terceira__pagina">
-        <div class="cadastro__tutor">
-            <img class="contato" src="./img/contato.png" alt="contato">
-            <p class="titulo_cadastro">Cadastro de Tutor</p>
-            <p class="subtitulo__contato">Preencha os dados do responsável pelo animal para começar o atendimento.</p>
+    <section class="quarta__pagina">
+        <div class="cadastro__animal">
+            <img class="contato" src="./img/Icone-animal.png" alt="contato">
+            <p class="titulo_cadastro">Cadastro do Animal</p>
+            <p class="subtitulo__contato">Registre seu pet e tenha acesso ao histórico completo de saúde em um só lugar.</p>
             <p class="checklist">
-                ✓ Histórico médico completo<br>
-                ✓ Lembretes de vacinas e consultas<br>
-                ✓ Agendamento online<br>
-                ✓ Acesso 24h ao prontuário
+                ✓ Prontuário digital<br>
+                ✓ Cartão de vacinação<br>
+                ✓ Histórico de consultas<br>
+                ✓ Exames e laudos
             </p>
         </div>
+
+        <form class="dados__animal">
+            <h1>Dados do Tutor</h1>
+
+            <div class="formulario__animais">
+                <div class="campo">
+                    <label for="nome">NOME DO ANIMAL</label>
+                    <input type="text" name="nome" placeholder="Rex">
+
+                    <label for="especie">ESPÉCIE</label>
+
+                    <select class="especie" id="especie" name="uf" required>
+                        <option value="">Selecione</option>
+                        <option value="cao">Cão</option>
+                        <option value="gato">Gato</option>
+                        <option value="passaro">Passáro</option>
+                        <option value="coelho">Coelho</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="reptil">Réptil</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+            </div>
+            
+        </form>
     </section>
 </body>
 </html>
