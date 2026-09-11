@@ -380,10 +380,13 @@
 }
 
 .cadastro__tutor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: linear-gradient(160deg, rgb(13, 95, 92) 0%, rgb(26, 143, 138) 100%);
     padding: 64px 36px;
     width: 225px;
-    height: 611.2px;
+    height: 670px;
 }
 
 .contato{
@@ -595,11 +598,12 @@ select:focus{
     color: #FFFFFF;
     border-radius: 100px;
     border: none;
-    transition: 0.25s ease;
+    transition: 0.5s ease;
     margin-top: 20px;
     cursor: pointer;
 }
 
 .botao__cadastro:hover{
     background: linear-gradient(135deg, rgb(19, 119, 115), rgb(37, 157, 152));
+    box-shadow: 0px 12px 11px 0px  rgba(61, 191, 184, 0.3);
 }
