@@ -641,8 +641,13 @@ select:focus{
     text-decoration: none;
     border: 2px solid #D4EEEC;
     background: var(--Cor-Branco-Acinzentado);
-    width: 330px;
+    width: 365px;
     font-family: var(--Fonte-Nunito);
     font-size: 15px;
     transform: scale(1.01);
 }
+
+.quarta__pagina{
+    background: #edfaf9;
+}
+
